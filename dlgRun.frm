@@ -1,6 +1,6 @@
 VERSION 5.00
 Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
-Begin VB.Form dlgRun 
+Begin VB.Form dlgRun
    BorderStyle     =   3  'Fixed Dialog
    Caption         =   "Run File"
    ClientHeight    =   1245
@@ -13,7 +13,7 @@ Begin VB.Form dlgRun
    ScaleHeight     =   1245
    ScaleWidth      =   4440
    ShowInTaskbar   =   0   'False
-   Begin MSComDlg.CommonDialog CommonDialog1 
+   Begin MSComDlg.CommonDialog CommonDialog1
       Left            =   120
       Top             =   600
       _ExtentX        =   847
@@ -23,7 +23,7 @@ Begin VB.Form dlgRun
       DialogTitle     =   "Browse for File"
       Filter          =   "*.exe *.com *.bat"
    End
-   Begin VB.CommandButton cmdBrowse 
+   Begin VB.CommandButton cmdBrowse
       Caption         =   "Browse..."
       Height          =   375
       Left            =   1680
@@ -31,14 +31,14 @@ Begin VB.Form dlgRun
       Top             =   120
       Width           =   1335
    End
-   Begin VB.TextBox Text1 
+   Begin VB.TextBox Text1
       Height          =   375
       Left            =   120
       TabIndex        =   2
       Top             =   120
       Width           =   1455
    End
-   Begin VB.CommandButton CancelButton 
+   Begin VB.CommandButton CancelButton
       Cancel          =   -1  'True
       Caption         =   "Cancel"
       Height          =   375
@@ -47,7 +47,7 @@ Begin VB.Form dlgRun
       Top             =   600
       Width           =   1215
    End
-   Begin VB.CommandButton OKButton 
+   Begin VB.CommandButton OKButton
       Caption         =   "OK"
       Default         =   -1  'True
       Height          =   375

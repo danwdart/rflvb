@@ -1,6 +1,6 @@
 VERSION 5.00
 Object = "{F5BE8BC2-7DE6-11D0-91FE-00C04FD701A5}#2.0#0"; "agentctl.dll"
-Begin VB.Form frmDragon 
+Begin VB.Form frmDragon
    Caption         =   "Dragon Game"
    ClientHeight    =   720
    ClientLeft      =   60
@@ -10,9 +10,9 @@ Begin VB.Form frmDragon
    ScaleHeight     =   720
    ScaleWidth      =   3450
    StartUpPosition =   3  'Windows Default
-   Begin VB.CommandButton cmdD 
+   Begin VB.CommandButton cmdD
       Caption         =   "D"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   24
          Charset         =   0
@@ -27,9 +27,9 @@ Begin VB.Form frmDragon
       Top             =   120
       Width           =   735
    End
-   Begin VB.CommandButton cmdC 
+   Begin VB.CommandButton cmdC
       Caption         =   "C"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   24
          Charset         =   0
@@ -44,9 +44,9 @@ Begin VB.Form frmDragon
       Top             =   120
       Width           =   735
    End
-   Begin VB.CommandButton cmdB 
+   Begin VB.CommandButton cmdB
       Caption         =   "B"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   24
          Charset         =   0
@@ -61,9 +61,9 @@ Begin VB.Form frmDragon
       Top             =   120
       Width           =   735
    End
-   Begin VB.CommandButton cmdA 
+   Begin VB.CommandButton cmdA
       Caption         =   "A"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   24
          Charset         =   0
@@ -78,7 +78,7 @@ Begin VB.Form frmDragon
       Top             =   120
       Width           =   735
    End
-   Begin AgentObjectsCtl.Agent agtctl 
+   Begin AgentObjectsCtl.Agent agtctl
       Left            =   0
       Top             =   0
    End

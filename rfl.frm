@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form frmRfl 
+Begin VB.Form frmRfl
    BackColor       =   &H0000FF00&
    Caption         =   "Red Fire Light"
    ClientHeight    =   3195
@@ -12,14 +12,14 @@ Begin VB.Form frmRfl
    ScaleHeight     =   3195
    ScaleWidth      =   4680
    StartUpPosition =   3  'Windows Default
-   Begin VB.Timer Timer1 
+   Begin VB.Timer Timer1
       Interval        =   1000
       Left            =   4200
       Top             =   2760
    End
-   Begin VB.CommandButton cmdCommand 
+   Begin VB.CommandButton cmdCommand
       Caption         =   "Command Prompt"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   12
          Charset         =   0
@@ -34,10 +34,10 @@ Begin VB.Form frmRfl
       Top             =   1440
       Width           =   1935
    End
-   Begin VB.CommandButton cmdRun 
+   Begin VB.CommandButton cmdRun
       BackColor       =   &H000080FF&
       Caption         =   "Run"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   12
          Charset         =   0
@@ -53,10 +53,10 @@ Begin VB.Form frmRfl
       Top             =   720
       Width           =   1455
    End
-   Begin VB.Label lblDate 
+   Begin VB.Label lblDate
       BackColor       =   &H0000FF00&
       Caption         =   "Date"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   20.25
          Charset         =   0
@@ -72,10 +72,10 @@ Begin VB.Form frmRfl
       Top             =   2520
       Width           =   2295
    End
-   Begin VB.Label lblTime 
+   Begin VB.Label lblTime
       BackColor       =   &H0000FF00&
       Caption         =   "Time"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   20.25
          Charset         =   0
@@ -91,31 +91,31 @@ Begin VB.Form frmRfl
       Top             =   2520
       Width           =   1695
    End
-   Begin VB.Image recycle 
+   Begin VB.Image recycle
       Height          =   720
       Left            =   1680
       Picture         =   "rfl.frx":0000
       Top             =   1440
       Width           =   720
    End
-   Begin VB.Image mydocs 
+   Begin VB.Image mydocs
       Height          =   720
       Left            =   840
       Picture         =   "rfl.frx":068A
       Top             =   1440
       Width           =   720
    End
-   Begin VB.Image mycomp 
+   Begin VB.Image mycomp
       Height          =   720
       Left            =   120
       Picture         =   "rfl.frx":1554
       Top             =   1440
       Width           =   720
    End
-   Begin VB.Label Label1 
+   Begin VB.Label Label1
       BackColor       =   &H0000FF00&
       Caption         =   "Welcome to Red Fire Light!"
-      BeginProperty Font 
+      BeginProperty Font
          Name            =   "Old English Text MT"
          Size            =   24
          Charset         =   0
@@ -131,60 +131,60 @@ Begin VB.Form frmRfl
       Top             =   120
       Width           =   4455
    End
-   Begin VB.Menu file 
+   Begin VB.Menu file
       Caption         =   "&File"
-      Begin VB.Menu exit 
+      Begin VB.Menu exit
          Caption         =   "Exit"
       End
-      Begin VB.Menu popup 
+      Begin VB.Menu popup
          Caption         =   "PopUp"
          Visible         =   0   'False
-         Begin VB.Menu apps 
+         Begin VB.Menu apps
             Caption         =   "Applications"
-            Begin VB.Menu paint 
+            Begin VB.Menu paint
                Caption         =   "Paint"
             End
-            Begin VB.Menu agent 
+            Begin VB.Menu agent
                Caption         =   "Agent stuff"
             End
-            Begin VB.Menu xearth 
+            Begin VB.Menu xearth
                Caption         =   "Xearth"
             End
-            Begin VB.Menu acc 
+            Begin VB.Menu acc
                Caption         =   "Accessories"
             End
-            Begin VB.Menu office 
+            Begin VB.Menu office
                Caption         =   "Office Stuff"
             End
-            Begin VB.Menu gamesfactory 
+            Begin VB.Menu gamesfactory
                Caption         =   "The Games Factory"
             End
-            Begin VB.Menu iconforge 
+            Begin VB.Menu iconforge
                Caption         =   "IconForge"
             End
          End
-         Begin VB.Menu games 
+         Begin VB.Menu games
             Caption         =   "Games"
-            Begin VB.Menu dragon 
+            Begin VB.Menu dragon
                Caption         =   "Dragon game"
             End
          End
-         Begin VB.Menu rflstuff 
+         Begin VB.Menu rflstuff
             Caption         =   "Red Fire Light Stuff"
          End
-         Begin VB.Menu startmenu 
+         Begin VB.Menu startmenu
             Caption         =   "Your Start Menu"
          End
-         Begin VB.Menu help 
+         Begin VB.Menu help
             Caption         =   "Help"
          End
-         Begin VB.Menu intranet 
+         Begin VB.Menu intranet
             Caption         =   "Intranet"
          End
-         Begin VB.Menu restart 
+         Begin VB.Menu restart
             Caption         =   "Restart"
          End
-         Begin VB.Menu shutdown 
+         Begin VB.Menu shutdown
             Caption         =   "Shut down"
          End
       End
